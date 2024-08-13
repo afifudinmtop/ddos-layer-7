@@ -11,7 +11,7 @@ const jumlah_tab = 20;
     // Fungsi untuk dijalankan di dalam browser
     await page.evaluate(() => {
       const tes = () => {
-        const url = "target.com";
+        const url = "www.bisaekspor.com";
         const pic = new Image();
         const rand = Math.floor(Math.random() * 10000);
         pic.src = `https://${url}?${rand}=val`;
